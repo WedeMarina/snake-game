@@ -10,6 +10,9 @@ My customized version of Scrimba's snake game, using HTML, CSS and Vanilla Javas
 - Changed the design of the snake and added images for the apple and the pear
 - Used e.preventDefault() to stop the browser window from moving up and down when the arrow keys are clicked
 
-## To Do:
+## To Do
 - Create a "break" button, to pause the game, but not reset it at the same time
 - Create a responsive layout for use on mobile phone / tablet
+
+## Deployment
+Deployed via Netlify at: https://vibrant-ritchie-204040.netlify.app
