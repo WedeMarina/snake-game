@@ -1,0 +1,45 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>🐍&nbsp;&nbsp S n a k e &nbsp G a m e  &nbsp;&nbsp🐍</h1>
+            
+                <button id="start">S t a r t &nbsp / &nbsp R e s t a r t</button>
+                
+            <div class="columns">
+                    <div class="info">
+                        <h3>How to play:</h3>
+                        <p>Use the arrow keys or the buttons below to change the direction of the snake.</p>
+                        <p>If the snakes eats an apple, it will grow and speed up. One point will be added to your score.</p>
+                        <p>If the snakes eats a pear, it will grow and speed up faster than after eating an apple. Your score will increase by 2 points in this case.</p>
+                        <p>Don't hit the walls or let the snake eat itself!</p>
+                        <p>Goal: Get as many points as possible!</p>
+                        <p>Have fun! ✨</p>
+                    </div><!-- close info-->
+                  
+                 <div class="col-right">
+                    <h2>S c o r e : &nbsp<span id="score"></span></h2>   
+                    <div class="grid"></div>
+                        <div id="message">     
+                        <p>Oh no - Game over! 😭</p>
+                        <p>Click the button above to try again!</p>
+                        </div><!-- close message-->
+                
+                
+                    <div class="button-wrapper">    
+                        <button class="button up">🔼</button> <br>
+                        <button class="button left">◀️</button>
+                        <button class="button right">▶️</button> <br>
+                        <button class="button down">🔽</button>
+                    </div><!-- close button-wrapper-->
+                </div><!-- close col-right-->
+            </div><!-- close columns-->
+        </div><!-- close container-->
+        <script src="index.js"></script>
+    </body>
+</html>

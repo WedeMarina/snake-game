@@ -1,0 +1,151 @@
+/* General styles for elements*/
+html, body, h1, h2 {
+    margin: 0;
+    text-align: center;
+    background-image: url(snake-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Jockey One', sans-serif;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 40px;
+    background: #0466c8;
+}
+
+h2  {
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: #0466c8;
+} 
+
+h3 {
+    text-decoration: underline;
+}
+
+/* Layout */
+.columns {
+    display: flex;
+}
+
+.container {
+    border: #0466c8 solid 5px;
+    max-width: 1000px;
+    height: 885px;
+    margin: 20px auto;
+    background: #0466c8;
+    box-shadow: 0 0 50px #0466c8;
+    border-radius: 40px
+}
+
+.info {
+    width: 300px;
+    margin-top: 45px;
+    margin-left: 90px;
+    padding: 0px 10px;
+    height: 400px;
+    border: solid 2px #001845;
+    border-radius: 50px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: solid 2px #001845;
+    margin: 0 100px;
+    background: #e9ff70;  
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: #004b23;
+    border-radius: 5px;
+}
+
+.apple::before {
+    content: "🍎";
+}
+
+.pear::before {
+    content: "🍐";
+}
+
+#message {
+    width: 200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 55%;  
+    display: none; 
+    background: #001845;
+}
+
+/* Buttons*/ 
+#start {
+    margin: 20px;
+    padding: 10px 50px;
+    background: #001845;
+    border: none;
+    border-radius: 50px; 
+    color: #fff;
+    font-family: 'Jockey One', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+#start:hover,
+#start:focus {
+    background: #002855;
+}
+
+.button-wrapper {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.button {
+    margin: 5px 40px;
+    background: #001845;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background: #002855;
+}
+
+.up {
+    border-radius: 50px 50px 20px 20px;
+    padding: 20px 30px;
+}
+
+.left {
+    border-radius: 50px 20px 20px 50px;
+    padding: 30px 20px;
+}
+
+.right {
+    border-radius: 20px 50px 50px 20px;
+    padding: 30px 20px; 
+}
+
+.down   {
+    border-radius: 20px 20px 50px 50px;
+    padding: 20px 30px;
+}
+
+
