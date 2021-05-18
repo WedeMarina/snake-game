@@ -14,7 +14,7 @@ My customized version of Scrimba's snake game, using HTML, CSS and Vanilla Javas
 - Create a "break" button, to pause the game, but not reset it at the same time
 
 ## Updates
-- Created a responsive layout for use on mobile phone / tablet
+- Added a media query to create a responsive layout
 
 ## Deployment
 Deployed via Netlify at: https://vibrant-ritchie-204040.netlify.app
