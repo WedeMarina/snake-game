@@ -152,7 +152,7 @@ h3 {
     padding: 20px 30px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
     .columns {
         display: flex;
         flex-direction: column;
